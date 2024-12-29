@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    min-height: 400px;
+    width: 300px;
+    background-color: grey;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.box input {
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgb(77, 70, 70);
+    color: white;
+    border: none;
+  
+}
+
+.box .btn {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+li {
+    font-size: 1.5rem;
+    list-style-type: decimal;
+    align-self: center;
+    margin-bottom: 3px;
+}
+
+.delete{
+    background-color: purple;
+    margin-left: 20px; 
+    padding: 5px;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    align-self: center;
+    border: none;
+}
